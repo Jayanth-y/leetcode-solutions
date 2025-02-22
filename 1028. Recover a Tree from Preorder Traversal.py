@@ -67,7 +67,7 @@ class Solution:
         return build_tree(nodes, levels)  # Step 2: Build the tree
       
 """
-Leetcode 1028. Recover a Tree from Preorder Traversal
+Leetcode 1028. Recover a Tree from Preorder Traversal (https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)
 
 We run a preorder depth-first search (DFS) on the root of a binary tree.
 At each node in this traversal, we output D dashes (where D is the depth of this node), then we output the value of this node.  If the depth of a node is D, the depth of its immediate child is D + 1.  The depth of the root node is 0.
